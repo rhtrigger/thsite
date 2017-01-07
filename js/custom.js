@@ -378,7 +378,7 @@ jQuery(function ($) { "use strict";
 		var marker = new google.maps.Marker({
 			position: myLatLng,
 			map: map,
-			icon: 'img/location-icon.png',
+			icon: 'img/logo-meghna.png',
 			title: '',
 		});
 
