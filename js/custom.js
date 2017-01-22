@@ -165,13 +165,14 @@ jQuery(function ($) { "use strict";
 	/*	Twitter Feed
 	/* ========================================================================= */
 			     
-	$(".tweet").twittie({
-		console.log('init');
-		dateFormat: "%b. %d, %Y",
-		template: "{{tweet}}",
-		count: 1
-	    });
-
+	$('.tweet').twittie({
+		dateFormat: '%b. %d, %Y', // date format
+		template: '{{tweet}} <div class="date">{{date}}</div>', // Format how you want to show your tweets. 
+		count: 1, // Number of tweets you want to display.
+		hideReplies: true, // Hide replies and only show your own tweets
+		username: null, // Option to load tweets from another account.
+		apiPath : 'api/tweet.php'
+	});
 
 	/* ========================================================================= */
 	/*	Portfolio Filtering Hook
