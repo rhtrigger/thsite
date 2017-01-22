@@ -172,8 +172,6 @@ jQuery(function ($) { "use strict";
 		hideReplies: true, // Hide replies and only show your own tweets
 		username: null, // Option to load tweets from another account.
 		apiPath : 'api/tweet.php'
-	}, function(){
-		console.log('init twittie');
 	});
 
 	/* ========================================================================= */
