@@ -1621,3 +1621,7 @@ border-color: #6CB670;
 margin: 0;
 }
 
+/* Jotform label override */
+.form-label{
+  color: #ffffff!important;  
+}
