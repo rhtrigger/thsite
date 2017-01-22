@@ -1,7 +1,7 @@
                                 
 
 jQuery(function ($) { "use strict";
-	
+	console.log('just after init'); 
 	/* ========================================================================= */
 	/*	Page Preloader
 	/* ========================================================================= */
@@ -484,10 +484,10 @@ $(function() {
 "use strict";
 
 function parallaxInit() {
-	$('#counter').parallax("1%", 0.1);
-	$('#team-skills').parallax("1%", 0.1);
-	$('#twitter-feed').parallax("1%", 0.1);
-	$('#testimonial').parallax("1%", 0.1);
+	$('#counter').parallax("50%", 0.3);
+	$('#team-skills').parallax("50%", 0.3);
+	$('#twitter-feed').parallax("50%", 0.3);
+	$('#testimonial').parallax("50%", 0.3);
 }
 
 $(window).bind("load", function () {
