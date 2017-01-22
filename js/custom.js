@@ -1,7 +1,7 @@
                                 
 
 jQuery(function ($) { "use strict";
-	console.log('just after init'); 
+ 
 	/* ========================================================================= */
 	/*	Page Preloader
 	/* ========================================================================= */
@@ -166,6 +166,7 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 			     
 	$('.tweet').twittie({
+		console.log('init twittie');
 		dateFormat: '%b. %d, %Y', // date format
 		template: '{{tweet}} <div class="date">{{date}}</div>', // Format how you want to show your tweets. 
 		count: 1, // Number of tweets you want to display.
