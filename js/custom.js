@@ -160,7 +160,17 @@ jQuery(function ($) { "use strict";
 		})
 	});
 	*/
-	
+		     
+		    
+	$(".chart").appear(function () {
+		$(".chart").easyPieChart({
+			easing: "easeOutBounce",
+			barColor: "#6CB670",
+			size: "150",
+			lineWidth: 15,
+			animate: 2e3
+		})
+	});
 	/* ========================================================================= */
 	/*	Twitter Feed
 	/* ========================================================================= */
