@@ -146,31 +146,22 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 	/*	Skills Chart
 	/* ========================================================================= */
-	/*
+	
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
 			barColor: "#6CB670",
 			size: "150",
 			lineWidth: 15,
-			animate: 2e3,
+			//animate: 2e3,
 			onStep: function (e, t, n) {
 				$(this.el).find(".percent").text(Math.round(n))
 			}
 		})
 	});
-	*/
+	
 		     
-		    
-	$(".chart").appear(function () {
-		$(".chart").easyPieChart({
-			easing: "easeOutBounce",
-			barColor: "#6CB670",
-			size: "150",
-			lineWidth: 15,
-			animate: 2e3
-		})
-	});
+		   
 	/* ========================================================================= */
 	/*	Twitter Feed
 	/* ========================================================================= */
